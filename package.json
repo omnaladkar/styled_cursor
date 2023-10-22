@@ -1,0 +1,28 @@
+{
+  "name": "styled_cursor",
+  "version": "1.0.0",
+  "description": "whatever image you want to make your cursor",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "prepare": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/omnaladkar/styled_cursor.git"
+  },
+  "keywords": [
+    "images for cursor"
+  ],
+  "author": "OM Naladkar <om.naladkar@gmail.com>",
+  "bugs": {
+    "url": "https://github.com/omnaladkar/styled_cursor.git/issues"
+  },
+  "license": "ISC",
+  "homepage": "https://github.com/omnaladkar/styled_cursor.git/README.md",
+  "devDependencies": {
+    "typescript": "^5.2.2"
+  },
+  "files": ["lib/**/*"]
+}
